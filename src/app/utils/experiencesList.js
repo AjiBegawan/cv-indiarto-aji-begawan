@@ -13,7 +13,7 @@ export const experienceList = [
           <li>Built machine learning applications that benefited 2,000+ visually impaired individuals in accessing and reading the Quran.</li>
         </ul>
       ),
-    imageURL: "./images/placeholder-image.png",
+    imageURL: "/images/placeholder-image.png",
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ export const experienceList = [
         <li>Completed 1-3 product backlog items per sprint and implemented unit tests using NodeJS.</li>
       </ul>
     ),
-    imageURL: "./images/experiences/pijar-corpu-web.png",
+    imageURL: "/images/experiences/pijar-corpu-web.png",
   },
   {
     id: 3,
@@ -45,7 +45,7 @@ export const experienceList = [
         <li>Published 10+ NFT articles, resulting in 1300+ users within the first month of the website launch.</li>
       </ul>
     ),
-    imageURL: "./images/experiences/idnft-web.png",
+    imageURL: "/images/experiences/idnft-web.png",
   },
   // {
   //   id: 4,
