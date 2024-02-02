@@ -1,19 +1,13 @@
 "use client";
 
 import React, { useState } from "react";
-import Link from "next/link";
-import NavLink from "./NavLink";
+import NavLink from "./sub-components/NavLink";
 import { Bars3Icon, XMarkIcon, MoonIcon } from "@heroicons/react/24/solid";
-import MenuOverlay from "./MenuOverlay";
+import MenuOverlay from "./sub-components/MenuOverlay";
 import { navLinks } from "../utils/navLinksList";
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
-  const [isChecked, setIsChecked] = useState(false);
-
-  const handleCheckboxChange = () => {
-    setIsChecked(!isChecked);
-  };
 
   return (
     <nav className="fixed mx-auto  top-0 left-0 right-0 z-10 backdrop-blur-lg">
