@@ -7,7 +7,7 @@ import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import AchivementsSection from "./components/AchivementsSection";
 import ExperiencesSection from "./components/ExperiencesSection";
-import { JetBrains_Mono } from "@next/font/google";
+import { JetBrains_Mono } from "next/font/google";
 import SkillsSection from "./components/SkillsSection";
 import ProjecstSections from "./components/ProjectsSections";
 import EducationsSection from "./components/EducationsSection";

@@ -39,14 +39,14 @@ const EducationsSection = () => {
         })}
       </div>
       <div>
-        <div className=" justify-center  pt-12 pb-5 ">
+        <div className=" justify-center  pt-6 pb-5 ">
           <h1 className="text-3xl font-bold text-center">
             <span className="bg-[#FCC7B7] px-2 text-black text-xl">
               Certifications
             </span>
           </h1>
         </div>
-        <div className="grid grid-rows-1 md:grid-cols-2">
+        <div className="grid grid-rows-1 lg:grid-cols-2">
           {certificateList.map((certificate) => {
             return (
               <div key={certificate.id}>

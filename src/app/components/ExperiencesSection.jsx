@@ -19,9 +19,9 @@ const ExperiencesSection = () => {
         </p>
         {experienceList.map((experience, index) => {
           return (
-            <div key={index}>
-              <div className="p-6 mt-10 rounded-md  grid grid-cols-1 lg:grid-cols-6 border border-slate-300 hover:shadow-xl text-[#021945]  transition-all duration-500">
-                <div className="col-span-3 mr pr-10">
+            <div key={index} className="flex justify-center">
+              <div className="rounded-md  grid grid-cols-1 lg:grid-cols-6 border border-slate-300 hover:shadow-xl text-[#021945] transition-all duration-500 my-3 w-11/12">
+                <div className="col-span-3 p-10">
                   <span className="flex">
                     <h1 className="text-xl uppercase font-bold bg-[#F6DACC] p-1">
                       {experience.company}
@@ -40,9 +40,6 @@ const ExperiencesSection = () => {
                   <p className="text-sm text-slate-400">
                     {experience.duration}
                   </p>
-                  {/* <div className="text-sm mt-4 font-extralight">
-                      {experience.description}
-                    </div> */}
                   <div className="mt-4">
                     <span className="flex justify-start gap-4 ">
                       {experience.companyLink && (
@@ -76,7 +73,7 @@ const ExperiencesSection = () => {
                     </span>
                   </div>
                 </div>
-                <div className="col-span-3 mx-auto pt-4 lg:pt-0">
+                <div className="col-span-3">
                   {experience.imageURL ? (
                     <span>
                       <Image
@@ -84,7 +81,7 @@ const ExperiencesSection = () => {
                         alt={experience.company}
                         width={400}
                         height={400}
-                        className="rounded-md"
+                        className=" w-full -z-10"
                       />
                     </span>
                   ) : (

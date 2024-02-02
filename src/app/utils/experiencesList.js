@@ -13,7 +13,7 @@ export const experienceList = [
           <li>Built machine learning applications that benefited 2,000+ visually impaired individuals in accessing and reading the Quran.</li>
         </ul>
       ),
-    imageURL: "/images/placeholder-image.png",
+    imageURL: "/images/experiences/placeholder.webp",
   },
   {
     id: 2,

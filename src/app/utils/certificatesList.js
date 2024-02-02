@@ -14,22 +14,22 @@ export const certificateList = [
     id: 3,
     org: "Microsoft",
     name: "Microsoft Certified Azure Data Fundamentals",
-    icon: "/images/icons/microsoft.png"
+    icon: "https://img.icons8.com/color/480/microsoft.png"
   }, {
     id: 4,
     org: "Microsoft",
     name: "Microsoft Certified Power Platform Fundamentals",
-    icon: "/images/icons/microsoft.png"
+    icon: "https://img.icons8.com/color/480/microsoft.png"
   }, {
     id: 5,
     org: "Microsoft",
     name: "Microsoft Certified Security, Compliance, and Identity Fundamentals",
-    icon: "/images/icons/microsoft.png"
+    icon: "https://img.icons8.com/color/480/microsoft.png"
   }, {
     id: 6,
     org: "Microsoft",
     name: "Microsoft Certified Azure AI Fundamentals",
-    icon: "/images/icons/microsoft.png"
+    icon: "https://img.icons8.com/color/480/microsoft.png"
   }, {
     id: 7,
     org: "Dicoding",

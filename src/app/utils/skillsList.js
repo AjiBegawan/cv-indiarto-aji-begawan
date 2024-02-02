@@ -91,7 +91,7 @@ export const skillsList = [
     position: "ai",
   }, {
     name: "Streamlit",
-    icon: '/images/icons/streamlit-icon-2.svg',
+    icon: '/images/icons/streamlit-icon.svg',
     position: "ai",
   }
 ]

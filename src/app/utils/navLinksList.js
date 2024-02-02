@@ -20,9 +20,5 @@ export const navLinks = [
     title: "Educations",
     path: "educations"
   },
-  {
-    title: "Contact",
-    path: "contact",
-  },
 
 ];
