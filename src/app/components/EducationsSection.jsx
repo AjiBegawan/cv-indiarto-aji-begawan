@@ -1,9 +1,9 @@
 "use client";
 
 import React from "react";
-import { educationList } from "../utils/educationsList";
-import { AcademicCapIcon, BookOpenIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
+import { AcademicCapIcon, BookOpenIcon } from "@heroicons/react/24/solid";
+import { educationList } from "../utils/educationsList";
 import { certificateList } from "../utils/certificatesList";
 
 const EducationsSection = () => {
