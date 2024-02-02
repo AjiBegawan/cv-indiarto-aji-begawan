@@ -8,19 +8,16 @@ const ExperiencesSection = () => {
   return (
     <section id="experiences" name="experiences">
       <div className="pt-24 px-8">
-        <span className="flex justify-center pb-3 gap-5">
-          <BriefcaseIcon width={30} height={30} />
-          <h1 className="text-3xl font-bold text-center">
-            <span className="bg-[#64A9A5] px-2 text-white">Experiences</span>
-          </h1>
-        </span>
-        <p className="text-center text-md text-slate-300 tracking-[.2em]">
+        <h1 className="text-3xl font-bold text-center mb-3">
+          <span className="bg-[#64A9A5] px-2 text-white">Experiences</span>
+        </h1>
+        <p className="text-center text-md text-slate-300 tracking-[.2em] pb-5">
           Life is not a problem to be solved, but an experience to be lived
         </p>
         {experienceList.map((experience, index) => {
           return (
             <div key={index} className="flex justify-center">
-              <div className="rounded-md  grid grid-cols-1 lg:grid-cols-6 border border-slate-300 hover:shadow-xl text-[#021945] transition-all duration-500 my-3 w-11/12">
+              <div className="grid grid-cols-1 lg:grid-cols-6 border border-slate-100 hover:shadow-xl text-[#021945] transition-all duration-500 my-3 w-11/12">
                 <div className="col-span-3 p-10">
                   <span className="flex">
                     <h1 className="text-xl uppercase font-bold bg-[#F6DACC] p-1">

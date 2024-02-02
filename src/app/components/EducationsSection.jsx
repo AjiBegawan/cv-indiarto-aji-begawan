@@ -36,7 +36,7 @@ const EducationsSection = () => {
                       {education.schoolName}
                     </h1>
                   </span>
-                  <p className="text-center text-lg">{education.major}</p>
+                  <p className="text-center text-md">{education.major}</p>
                   <p className="text-center text-md">{education.gpa}</p>
                   <p className="text-center text-md">{education.year}</p>
                 </div>

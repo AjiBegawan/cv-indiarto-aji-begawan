@@ -44,17 +44,6 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-
-        {/* <div>
-          <label class="relative inline-flex items-center cursor-pointer">
-            <input type="checkbox" value="" class="sr-only peer" />
-            <div class="w-16 h-8 bg-gray-200 peer-focus:outline-none  rounded-full peer dark:bg-white peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[10px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-6 after:w-6 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600  after:translate-y-0.5 after:-translate-x-1">
-              <span>
-                <MoonIcon className="h-5 w-5 translate-x-1.5 translate-y-1.5" />
-              </span>
-            </div>
-          </label>
-        </div> */}
       </div>
       {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
     </nav>

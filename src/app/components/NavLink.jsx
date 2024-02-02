@@ -9,7 +9,7 @@ const NavLink = ({ href, title }) => {
       smooth={true}
       offset={-13}
       duration={500}
-      className="hover:bg-[#64A9A5] hover:text-white"
+      className="hover:bg-[#64A9A5] hover:text-white text-lg"
     >
       {title}
     </Link>
