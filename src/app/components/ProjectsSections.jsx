@@ -3,7 +3,6 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-
 import { projectList } from "../utils/projectsList";
 
 const ProjectSections = () => {
@@ -23,34 +22,32 @@ const ProjectSections = () => {
             return (
               <div key={project.id}>
                 <div className="rounded-md hover:shadow-xl">
-                  <div className=" ">
-                    <div className="group relative justify-center">
-                      <Image
-                        src={project.projectImageUrl}
-                        alt={project.name}
-                        height={350}
-                        width={350}
-                        className="rounded-md w-full"
-                      />
-                      <div className="overlay rounded-md items-center justify-center absolute transition-all duration-500 top-0 left-0 w-full h-full backdrop-blur-sm bg-white bg-opacity-80 hidden group-hover:flex ">
-                        <Link
-                          href={project.projectLink}
-                          target="_blank"
-                          className="text-center pt-5"
-                        >
-                          <div className="text-center">
-                            <p className="text-2xl py-3 text-[#64A9A5]">
-                              {project.name}
-                            </p>
-                            <p className=" text-sm text-[#64A9A5] p-4">
-                              {project.description}
-                            </p>
-                          </div>
-                          <button className="rounded-md border-2 border-[#64A9A5] bg-white  px-3 py-2 font-light text-[#64A9A5] transition-all duration-300 hover:translate-x-[4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[-4px_4px_0px_teal] active:translate-x-[0px] active:translate-y-[0px] active:rounded-md active:shadow-none">
-                            <p>Visit Project</p>
-                          </button>
-                        </Link>
-                      </div>
+                  <div className="group relative justify-center">
+                    <Image
+                      src={project.projectImageUrl}
+                      alt={project.name}
+                      height={350}
+                      width={350}
+                      className="rounded-md w-full"
+                    />
+                    <div className="overlay rounded-md items-center justify-center absolute transition-all duration-500 top-0 left-0 w-full h-full backdrop-blur-sm bg-white bg-opacity-80 hidden group-hover:flex ">
+                      <Link
+                        href={project.projectLink}
+                        target="_blank"
+                        className="text-center pt-5"
+                      >
+                        <div className="text-center">
+                          <p className="text-2xl py-3 text-[#64A9A5]">
+                            {project.name}
+                          </p>
+                          <p className=" text-sm text-[#64A9A5] p-4">
+                            {project.description}
+                          </p>
+                        </div>
+                        <button className="rounded-md border-2 border-[#64A9A5] bg-white  px-3 py-2 font-light text-[#64A9A5] transition-all duration-300 hover:translate-x-[4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[-4px_4px_0px_teal] active:translate-x-[0px] active:translate-y-[0px] active:rounded-md active:shadow-none">
+                          <p>Visit Project</p>
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
