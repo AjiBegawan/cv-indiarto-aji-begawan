@@ -2,9 +2,9 @@
 
 import React, { useState } from "react";
 import NavLink from "./sub-components/NavLink";
-import { Bars3Icon, XMarkIcon, MoonIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./sub-components/MenuOverlay";
 import { navLinks } from "../utils/navLinksList";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
