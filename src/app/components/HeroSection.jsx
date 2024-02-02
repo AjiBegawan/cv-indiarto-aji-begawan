@@ -1,10 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
 import React from "react";
+import Link from "next/link";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
-import Link from "next/link";
 
 const HeroSection = () => {
   return (
