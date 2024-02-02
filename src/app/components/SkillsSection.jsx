@@ -1,18 +1,12 @@
 "use client";
 
 import React from "react";
-import { skillsList } from "../utils/skillsList";
 import Image from "next/image";
-import {
-  ComputerDesktopIcon,
-  CpuChipIcon,
-  CodeBracketIcon,
-} from "@heroicons/react/24/solid";
+import { skillsList } from "../utils/skillsList";
+import { ComputerDesktopIcon, CpuChipIcon } from "@heroicons/react/24/solid";
 
 const webSkills = skillsList.filter((skill) => skill.position === "web");
 const AISkills = skillsList.filter((skill) => skill.position === "ai");
-
-const webLength = webSkills.length;
 
 const SkillsSection = () => {
   return (
