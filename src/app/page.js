@@ -14,7 +14,6 @@ const jetBrains = JetBrains_Mono({
   variable: "--font-jetbrains",
 })
 
-
 export default function Home() {
   return (
     <main className={`flex min-h-screen flex-col ${jetBrains.className}`} data-theme="emerald">
