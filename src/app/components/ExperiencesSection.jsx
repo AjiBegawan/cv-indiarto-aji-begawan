@@ -45,7 +45,7 @@ const ExperiencesSection = () => {
                           target="_blank"
                           className="flex "
                         >
-                          <button className="rounded-md border-2 border-[#64A9A5] hover:border-[#64A9A5]  px-3 py-1 font-light text-[#64A9A5] transition-all duration-300 hover:translate-x-[4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[-4px_4px_0px_teal] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
+                          <button className="rounded-md border-2 border-[#64A9A5] hover:border-[#64A9A5]  px-3 py-1 font-light text-[#64A9A5] transition-all duration-300 hover:translate-x-[4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[-4px_4px_0px_teal] active:translate-x-[0px] active:translate-y-[0px] active:rounded-md active:shadow-none">
                             <span className="flex">
                               <h1 className="text-sm">Visit Company Website</h1>
                               <ArrowUpRightIcon className="ml-2" width={15} />
@@ -59,7 +59,7 @@ const ExperiencesSection = () => {
                           target="_blank"
                           className="flex"
                         >
-                          <button className="rounded-md border-2 border-[#64A9A5] hover:border-[#64A9A5]  px-4 py-2 font-light text-[#64A9A5] transition-all duration-300 hover:translate-x-[4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[-4px_4px_0px_teal] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
+                          <button className="rounded-md border-2 border-[#64A9A5] hover:border-[#64A9A5]  px-4 py-2 font-light text-[#64A9A5] transition-all duration-300 hover:translate-x-[4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[-4px_4px_0px_teal] active:translate-x-[0px] active:translate-y-[0px] active:rounded-md active:shadow-none">
                             <span className="flex">
                               <h1 className="text-sm">See Project</h1>
                               <ArrowUpRightIcon className="ml-2" width={15} />
