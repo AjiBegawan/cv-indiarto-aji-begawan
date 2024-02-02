@@ -18,8 +18,8 @@ const HeroSection = () => {
         >
           <div className="rounded-full bg-[#64A9A5] w-[150px] h-[150px] lg:w-[300px] lg:h-[300px] relative md:w-[200px] md:h-[200px] mr-10">
             <Image
-              src="/images/dpimage.png"
-              alt="/images/dpimage.png"
+              src="/images/hero/dpimage.png"
+              alt="Hero Image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}
               height={300}
@@ -62,7 +62,7 @@ const HeroSection = () => {
 
           <div className="flex flex-row justify-center md:justify-start">
             <Link href="https://linkedin.com/in/indiartoajib" target="_blank">
-              <button className="rounded-md border-2 border-[#64A9A5]  px-4 py-2 font-light uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_teal] active:translate-x-[0px] active:translate-y-[0px] active:rounded-md active:shadow-none">
+              <button className="rounded-md border-2 border-[#64A9A5]  px-4 py-2 font-light uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_teal] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
                 <span className="flex">
                   <Image
                     src={"/images/icons/linkedin-icon.svg"}
@@ -80,7 +80,7 @@ const HeroSection = () => {
               target="_blank"
               className="px-4"
             >
-              <button className="rounded-md border-2 border-[#64A9A5]  px-4 py-2 font-light uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_teal] active:translate-x-[0px] active:translate-y-[0px] active:rounded-md active:shadow-none">
+              <button className="rounded-md border-2 border-[#64A9A5]  px-4 py-2 font-light uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_teal] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
                 <span className="flex">
                   <Image
                     src={"/images/icons/github-icon.svg"}
