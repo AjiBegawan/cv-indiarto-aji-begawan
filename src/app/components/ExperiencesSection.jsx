@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { BriefcaseIcon, ArrowUpRightIcon } from "@heroicons/react/24/solid";
+import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
 import { experienceList } from "../utils/experiencesList";
 
 const ExperiencesSection = () => {
