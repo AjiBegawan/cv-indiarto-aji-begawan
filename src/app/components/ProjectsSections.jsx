@@ -1,11 +1,10 @@
 "use client";
 
 import React from "react";
-import { projectList } from "../utils/projectsList";
-import ProjectCard from "./ProjectCard";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowTopRightIcon, GlobeIcon } from "@radix-ui/react-icons";
+
+import { projectList } from "../utils/projectsList";
 
 const ProjectSections = () => {
   return (
