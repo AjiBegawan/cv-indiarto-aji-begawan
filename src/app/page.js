@@ -3,7 +3,6 @@ import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import AboutSection from "./components/AboutSection";
 import ProjectsSections1 from "./components/ProjectsSections1";
-import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import AchivementsSection from "./components/AchivementsSection";
 import ExperiencesSection from "./components/ExperiencesSection";
@@ -34,7 +33,6 @@ export default function Home() {
         {/* <ProjectsSections1 /> */}
         <ProjecstSections />
         <EducationsSection />
-        {/* <EmailSection /> */}
       </div>
       <Footer />
     </main>
