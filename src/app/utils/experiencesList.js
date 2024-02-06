@@ -29,6 +29,7 @@ export const experienceList = [
       </ul>
     ),
     imageURL: "/images/experiences/pijar-corpu-web.png",
+
   },
   {
     id: 3,
@@ -45,18 +46,6 @@ export const experienceList = [
       </ul>
     ),
     imageURL: "/images/experiences/idnft-web.png",
+
   },
-  // {
-  //   id: 4,
-  //   company: "Mabrur Beef",
-  //   position: "Co-Founder",
-  //   duration: "Aug 2020 - Aug 2021",
-  //   description:
-  //     (
-  //       <ul className="list-disc pl-5">
-  //         <li>Evaluated employees&apos; strengths and assigned tasks based upon experience and training.</li>
-  //         <li>Monitored and supported progress of plant production orders by managing shop capacity and loading functions at several facilities.</li>
-  //       </ul>
-  //     ),
-  // },
 ];

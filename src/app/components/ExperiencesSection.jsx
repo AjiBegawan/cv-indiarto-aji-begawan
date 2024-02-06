@@ -37,6 +37,7 @@ const ExperiencesSection = () => {
                   <p className="text-sm text-slate-400">
                     {experience.duration}
                   </p>
+
                   <div className="mt-4">
                     <span className="flex justify-start gap-4 ">
                       {experience.companyLink && (
@@ -90,6 +91,7 @@ const ExperiencesSection = () => {
           );
         })}
       </div>
+      <div></div>
     </section>
   );
 };
