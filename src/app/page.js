@@ -6,7 +6,7 @@ import ProjecstSections from "./components/ProjectsSections";
 import EducationsSection from "./components/EducationsSection";
 import Footer from "./components/Footer";
 import { JetBrains_Mono } from "next/font/google";
-import { SpeedInsights } from '@vercel/speed-insights/next';
+
 
 const jetBrains = JetBrains_Mono({
   subsets: ["latin"],
