@@ -40,5 +40,35 @@ export const projectList = [
     projectImageUrl: "/images/projects/idnft-website.png",
     projectLink: "https://github.com/AjiBegawan/idnft-website",
     description: "IDNFT is more than just a website; it's a vibrant community for Indonesian NFT enthusiasts looking to explore, connect, and create in this dynamic space."
-  },
+  }, {
+    id: 7,
+    name: "Machine Learning Classification Projects",
+    projectImageUrl: "/images/projects/classification.png",
+    projectLink: "https://github.com/AjiBegawan/Machine-Learning-Classification",
+    description: "This repository houses 35+ classification projects using unsupervised machine learning techniques, showcasing my journey and experimentation as I learn and train for a data science role. Datasets sourced from Kaggle and various websites."
+  }, {
+    id: 8,
+    name: "Machine Learning Regression Projects",
+    projectImageUrl: "/images/projects/regression.png",
+    projectLink: "https://github.com/AjiBegawan/Machine-Learning-Regression",
+    description: "30+ projects demonstrate understanding of unsupervised learning applied to regression problems. Explore code and datasets to learn more."
+  }, {
+    id: 9,
+    name: "Machine Learning Text Processing Projects",
+    projectImageUrl: "/images/projects/text-processing.png",
+    projectLink: "https://github.com/AjiBegawan/Machine-Learning-Text-Processing",
+    description: "25+ Text Processing Projects: Experimenting with supervised learning models (DNNs, LSTMs, GRUs, RNNs) for various text tasks. Explore the code and datasets!"
+  }, {
+    id: 10,
+    name: "Machine Learning Image Processing Projects",
+    projectImageUrl: "/images/projects/image-processing.png",
+    projectLink: "https://github.com/AjiBegawan/Machine-Learning-Image-Processing",
+    description: "5+ projects showcasing expertise in building & training CNNs for various image processing applications."
+  }, {
+    id: 11,
+    name: "Machine Learning Recommendation Projects",
+    projectImageUrl: "/images/projects/recommendation.png",
+    projectLink: "https://github.com/AjiBegawan/Machine-Learning-Recommendation",
+    description: "5+ projects showcasing my expertise in building and evaluating recommendation systems. Datasets from Kaggle & beyond."
+  }
 ]
