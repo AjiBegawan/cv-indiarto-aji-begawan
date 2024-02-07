@@ -10,7 +10,7 @@ const EducationsSection = () => {
   return (
     <section
       id="educations"
-      className="h-full mb-10 container flex justify-center "
+      className="h-dvh mb-10 container flex justify-center "
     >
       <div className="w-5/6">
         <div className=" justify-center text-3xl  pt-24 pb-5 ">
