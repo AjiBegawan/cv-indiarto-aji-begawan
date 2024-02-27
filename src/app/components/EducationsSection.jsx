@@ -48,7 +48,7 @@ const EducationsSection = () => {
           <div className=" justify-center  pt-6 pb-5 ">
             <h1 className="text-3xl font-bold text-center">
               <span className="bg-[#FCC7B7] px-2 text-black text-xl">
-                Certifications
+                Certifications And Trainings
               </span>
             </h1>
           </div>
