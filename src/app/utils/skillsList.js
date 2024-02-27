@@ -3,10 +3,19 @@ export const skillsList = [
     name: "Javascript",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     position: "web",
+  }, {
+    name: "PHP",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+    position: "web",
   },
   {
-    name: "React",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    name: "Node.js",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    position: "web",
+  },
+  {
+    name: "Codeigniter",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg",
     position: "web",
   },
   {
@@ -15,19 +24,17 @@ export const skillsList = [
     position: "web",
   },
   {
-    name: "Tailwind",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-    position: "web",
-  }, {
-    name: "PHP",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+    name: "Vite",
+    icon: "https://cdn.worldvectorlogo.com/logos/vitejs.svg",
     position: "web",
   },
   {
-    name: "Codeigniter",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg",
+    name: "React",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
     position: "web",
-  }, {
+  },
+
+  {
     name: "MySQL",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
     position: "web",
@@ -40,15 +47,18 @@ export const skillsList = [
     name: "Docker",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
     position: "web",
-  }, {
+  },
+  {
+    name: "Tailwind",
+    icon: "https://www.svgrepo.com/show/374118/tailwind.svg",
+    position: "web",
+  },
+  {
     name: "Bootstrap",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg",
     position: "web",
-  }, {
-    name: "Vite",
-    icon: "https://cdn.worldvectorlogo.com/logos/vitejs.svg",
-    position: "web",
   },
+
   {
     name: "Data Visualization",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
@@ -92,6 +102,11 @@ export const skillsList = [
   }, {
     name: "Streamlit",
     icon: '/images/icons/streamlit-icon.svg',
+    position: "ai",
+  }
+  , {
+    name: "Google BigQuery",
+    icon: 'https://cdn.worldvectorlogo.com/logos/google-bigquery-logo-1.svg',
     position: "ai",
   }
 ]
