@@ -71,7 +71,7 @@ const HeroSection = () => {
                     height={25}
                     className="bg-white rounded-full mr-3"
                   />
-                  Linkedin.com
+                  Linkedin
                 </span>
               </button>
             </Link>
@@ -89,7 +89,25 @@ const HeroSection = () => {
                     height={25}
                     className="bg-white rounded-full mr-3"
                   />
-                  Github.com
+                  Github
+                </span>
+              </button>
+            </Link>
+            <Link
+              href="https://skilldeck.me/indiartoajibegawan"
+              target="_blank"
+              className=""
+            >
+              <button className="rounded-md border-2 border-[#64A9A5]  px-4 py-2 font-light uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_teal] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
+                <span className="flex">
+                  <Image
+                    src={"/images/icons/skilldeck.png"}
+                    alt="Github Icon"
+                    width={25}
+                    height={25}
+                    className="bg-white rounded-full mr-3"
+                  />
+                  Portfolio
                 </span>
               </button>
             </Link>
