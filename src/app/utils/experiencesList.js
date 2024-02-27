@@ -1,6 +1,20 @@
 export const experienceList = [
   {
     id: 1,
+    company: "Project-Based Virtual Intern: Data Engineer ID/X Partners X Rakamin Indonesia",
+    companyLink: "https://idxpartners.com/",
+    // project: "Quran OCR",
+    position: "Data Engineer Internship",
+    duration: "Feb 2024 – Mar 2024",
+    description:
+      (
+        <ul className="list-disc pl-5">
+          <li>Finished various tasks related to the activity of Data Engineer from ID/X Partner such as Designing the Data Warehouse, Data Transformation, Data Visualization, ETL Implementation, and Scheduling.</li>
+        </ul>
+      ),
+  },
+  {
+    id: 2,
     company: "Yayasan Mitra Netra",
     companyLink: "https://mitranetra.or.id/",
     project: "Quran OCR",
@@ -15,7 +29,7 @@ export const experienceList = [
       ),
   },
   {
-    id: 2,
+    id: 3,
     company: "Telkom Indonesia",
     companyLink: "https://www.telkom.co.id/sites",
     project: "Pijar Sekolah",
@@ -32,7 +46,7 @@ export const experienceList = [
 
   },
   {
-    id: 3,
+    id: 4,
     company: "Jogja Painting",
     companyLink: "https://jogjapainting.id/",
     project: "IDNFT Website",
@@ -46,6 +60,21 @@ export const experienceList = [
       </ul>
     ),
     imageURL: "/images/experiences/idnft-web.png",
-
+  },
+  {
+    id: 5,
+    company: "Puzzle Inc",
+    // companyLink: "https://idxpartners.com/",
+    // project: "Quran OCR",
+    position: "Data Analyst Freelancer",
+    duration: "Jun 2021 - Sep 2021",
+    description:
+      (
+        <ul className="list-disc pl-5">
+          <li>Collected 30+ types of product data (product name, selling, price, etc.) by scraping Tokopedia, Shopee, and Lazada websites using Beautiful Soup.</li>
+          <li>Cleaned and analyzed 6000+ building product data to help stakeholders understand the top-selling product.</li>
+          <li>Evaluated consumer needs every week to update top-selling products and inform the warehouse team.</li>
+        </ul>
+      ),
   },
 ];
